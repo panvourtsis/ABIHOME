@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Torus;
+  src:
+    url("../assets/fonts/Torus-Regular.woff") format("woff"),
+    url("../assets/fonts/Torus-Regular.ttf")  format("truetype");
+}
+
+html, body {
+  color: #112134;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+html {
+  font-size: 100%;
+}
+
+#app {
+  background-color: #fafafa;
+  min-height: 100%;
+  min-width: 100%;
+}

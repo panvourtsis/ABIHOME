@@ -1,0 +1,13 @@
+.image-item-wrapper {
+  display: flex;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  &.active {
+    background: #2a3841;
+  }
+  .image-item {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+}
